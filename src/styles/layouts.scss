@@ -1,0 +1,35 @@
+.main-layout {
+    .logo-wrapper {
+        p {
+            font-size: 14px;
+            margin-bottom: 0px;
+            color: #2f7eb4;
+            font-weight: 600;
+        }
+        .line {
+            display: block;
+            width: 50%;
+            height: 1px;
+            background: #2f7eb4;
+            margin: 10px 0px;
+        }
+    }
+    ul {
+        list-style:  none;
+        li {
+            display: flex;
+            align-items: center;
+            grid-gap: 5px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            &.active {
+                background: rgba(0,0,0, .05);
+                cursor: initial;
+            }
+        }
+        img {
+            width: 26px;
+        }
+    }
+}

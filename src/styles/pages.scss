@@ -1,0 +1,58 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+}
+.main-nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 46px;
+    a, button {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        font-size: 24px;
+        text-transform: uppercase;
+        background-color: #2f7eb3;
+        color: white;
+        padding: 15px 20px;
+        grid-gap: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px #ccc, 5px 10px 10px #ccc;
+        svg {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    
+}
+h1 {
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    font-size: 38px !important;
+}
+
+.v-row  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 30px;
+    .videos-card{
+        cursor: pointer;
+        img {
+            border-radius: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.about-dushanbe {
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 18px;
+    }
+}
